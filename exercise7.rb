@@ -22,3 +22,10 @@ name_number(students)
 
 # Use the keys method to output all of the cohort names.
 puts students.keys
+
+# Increase each cohort size by 5% and display the new results.
+students.each do |key, value|
+    students[key] = (value * 1.05).to_i
+  end
+
+name_number(students)
