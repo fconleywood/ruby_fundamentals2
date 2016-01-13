@@ -20,3 +20,7 @@ grocery_list.each do |grocery|
 grocery_list.push("rice")
 
 asterisk_list(grocery_list)
+
+# Better output the total number of items on your list.
+
+puts grocery_list.count
