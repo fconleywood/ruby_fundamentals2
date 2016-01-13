@@ -14,4 +14,11 @@ students = {
   :cohort3 => 22
 }
 
+# Add cohort 4, which had 43 students, to the hash.
+students[:cohort4] = 43
+
+
 name_number(students)
+
+# Use the keys method to output all of the cohort names.
+puts students.keys
