@@ -43,3 +43,6 @@ puts grocery_list[1]
 
 # Sort your grocery list alphabetically and output it with asterisks again.
 asterisk_list(grocery_list.sort)
+
+# Delete the last item from your list and redisplay the list one last time.
+asterisk_list(grocery_list - ["grapes"])
