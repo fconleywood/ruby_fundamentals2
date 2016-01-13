@@ -40,3 +40,6 @@ if grocery_list.include?("bananas") == true
 
 # Display the second item in the list.
 puts grocery_list[1]
+
+# Sort your grocery list alphabetically and output it with asterisks again.
+asterisk_list(grocery_list.sort)
