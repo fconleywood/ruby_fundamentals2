@@ -29,3 +29,18 @@ students.each do |key, value|
   end
 
 name_number(students)
+
+# Calculate the total number of students across all cohorts using each
+# and a variable to keep track of the total. Output the result.
+total = 0
+
+students.each do |key, value|
+  total = total + value
+end
+ puts total
+
+
+# Delete the 2nd cohort and redisplay the hash.
+students.delete(:cohort2)
+
+name_number(students)
